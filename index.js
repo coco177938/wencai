@@ -15,7 +15,7 @@ const AUTO_ACCESS = process.env.AUTO_ACCESS || true;      // 是否开启自动�
 const NAME = process.env.NAME || 'Vls';                    // 节点名称
 const PORT = process.env.PORT || #PORT#;                     // http和ws服务端口
 
-let ISP = '';
+let ISP = ''; 
 const fetchMetaInfo = async () => {
   try {
     const response = await axios.get('https://speed.cloudflare.com/meta');
