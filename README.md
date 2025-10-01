@@ -32,5 +32,6 @@ https://你的域名/你的uuid
 
 
 * js混肴地址：https://obfuscator.io
+* [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 
 
