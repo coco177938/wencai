@@ -19,7 +19,7 @@ if [ $? -ne 0 ]; then
 fi
 curl -s -o "/home/$username/cron.sh" "https://raw.githubusercontent.com/frankiejun/node-ws/main/cron.sh"
 if [ $? -ne 0 ]; then
-    echo "Error: 下载脚本 cron.sh 失败！"
+    echo "Error: 下载脚本 cron.sh 失败！"  
     exit 1
 fi
 chmod +x /home/$username/cron.sh
